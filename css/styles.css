@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+body {
+  background-image: url(/img/bj3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container {
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 576px) {
+    /* Estilos para dispositivos móviles */
+    section {
+      margin-bottom: 20px;
+    }
+}
+
+#tituloDev {
+  font-size: 80px;
+}
+
+#parrafoDev {
+  font-size: 20px;
+}
+#parrafoDevSobreMi {
+  font-size: 25px;
+}
+#parrafoDevHabilidades {
+  font-size: 23px;
+}
+#tecnologias {
+  font-size: 50px;
+}
+#imagenesProyectos {
+  display: flex;
+  justify-content: space-around;
+}
+
+#inputEnviar {
+  width: 150px;
+  padding: 10px;
+  border-radius: 10%;
+  border: 3px solid #fff;
+}
+
+.row {
+  margin-top: 20px;
+  justify-content: space-around;
+}
+
+#textCopyrigth {
+  font-size: 20px;
+}
