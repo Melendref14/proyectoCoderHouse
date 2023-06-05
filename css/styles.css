@@ -8,7 +8,7 @@
 }
 
 body {
-  background-image: url(/img/bj3.jpg);
+  background-image: url(../img/bj3.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,9 +25,11 @@ body {
 }
 
 #tituloDev {
-  font-size: 80px;
+  font-size: 70px;
 }
-
+#tituloDevSobreMi {
+  font-size: 70px;
+}
 #parrafoDev {
   font-size: 20px;
 }
@@ -40,7 +42,11 @@ body {
 #tecnologias {
   font-size: 50px;
 }
-#imagenesProyectos {
+#imagenesProyectos1 {
+  display: flex;
+  justify-content: space-around;
+}
+#imagenesProyectos2 {
   display: flex;
   justify-content: space-around;
 }
