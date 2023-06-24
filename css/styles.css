@@ -49,7 +49,42 @@ body .container {
 
 #imagenesProyectos1 {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-around; 
+}
+#imagen1 {
+  transition: transform 0.3s ease;
+}
+#imagen1:hover {
+  transform: scale(1.8) translate(15%);
+  z-index: 1;
+  position: absolute;
+}
+
+#imagen2 {
+  transition: transform 0.3s ease;
+}
+#imagen2:hover {
+  transform: scale(1.8) translate(15%);
+  z-index: 1;
+  position: absolute;
+}
+
+#imagen3 {
+  transition: transform 0.3s ease;
+}
+#imagen3:hover {
+  transform: scale(1.8) translate(15%);
+  z-index: 1;
+  position: absolute;
+}
+
+#imagen4 {
+  transition: transform 0.3s ease;
+}
+#imagen4:hover {
+  transform: scale(1.8) translate(15%);
+  z-index: 1;
+  position: absolute;
 }
 
 #imagenesProyectos2 {
@@ -72,5 +107,7 @@ body .container {
 #textCopyrigth {
   font-size: 20px;
 }
+
+
 
 /*# sourceMappingURL=styles.css.map */
