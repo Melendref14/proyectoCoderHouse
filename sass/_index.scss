@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+@mixin reset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: "Oswald", sans-serif;
+}
+
+@mixin mobile-styles {
+  @media (max-width: 576px) {
+    /* Estilos para dispositivos móviles */
+    section {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@mixin image-transition {
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.8) translate(15%);
+    z-index: 1;
+    position: absolute;
+  }
+}

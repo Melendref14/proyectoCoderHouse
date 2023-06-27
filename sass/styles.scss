@@ -1,12 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
-
-* {
-  padding: 0;
-  margin: 0;
-  border: 0;
-  font-family: "Oswald", sans-serif;
-}
+@import 'archivo-partial';
 
 body {
   background-image: url(../img/bj3.jpg);
@@ -18,12 +11,7 @@ body {
     margin-top: 20px;
   }
 
-  @media (max-width: 576px) {
-    /* Estilos para dispositivos móviles */
-    section {
-      margin-bottom: 20px;
-    }
-  }
+  @include mobile-styles;
 }
 
 #tituloDev {
@@ -58,16 +46,7 @@ body {
   #imagen2,
   #imagen3,
   #imagen4 {
-    transition: transform 0.3s ease;
-  }
-
-  #imagen1:hover,
-  #imagen2:hover,
-  #imagen3:hover,
-  #imagen4:hover {
-    transform: scale(1.8) translate(15%);
-    z-index: 1;
-    position: absolute;
+    @include image-transition;
   }
 }
 
